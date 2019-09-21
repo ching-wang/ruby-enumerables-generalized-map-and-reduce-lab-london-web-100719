@@ -7,11 +7,11 @@ def map(array)
 end 
 
 def reduce(array, starting_value=nil)
-  value = starting_value
+  value_so_far = starting_value
   array.each do |item|
-    value = yield(value, item)
+    value_so_far = yield(value_so_far, item)
   end
-  return value
+  return value_so_far
 end
 
 reduce([1,2,3], 0) do {|value,item| value + item }
