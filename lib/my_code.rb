@@ -1,4 +1,3 @@
 def my_own_map(array)
-  array.map{|n| n * -1}
-  return arrray 
+  return array.map{|n| n * -1}
 end 
