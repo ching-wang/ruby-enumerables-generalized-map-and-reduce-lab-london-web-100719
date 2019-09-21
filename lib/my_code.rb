@@ -1,4 +1,4 @@
-def my_own_map(array)
+def my_own_map(array, block)
   return array.map{|n| n * -1}
 end 
 
