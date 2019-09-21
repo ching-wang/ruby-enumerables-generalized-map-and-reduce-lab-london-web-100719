@@ -6,7 +6,5 @@ def map(array)
   return new_array
 end 
 
-{|n| n * -1}
-{|n| n * 2}
-
-map([1,2,3]) do {|n| n * -1}
+def reduce(array, starting_value?)
+end
