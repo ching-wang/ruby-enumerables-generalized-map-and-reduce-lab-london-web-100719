@@ -13,5 +13,3 @@ def reduce(array, starting_value=nil)
   end
   return value_so_far
 end
-
-reduce([1,2,3], 0) do {|value,item| value + item}
