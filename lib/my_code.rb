@@ -6,7 +6,7 @@ def map(array)
   return new_array
 end 
 
-def reduce(array, starting_value=nil)
+def reduce(array, starting_value=0)
   value_so_far = starting_value
   array.each do |item|
     value_so_far = yield(value_so_far, item)
